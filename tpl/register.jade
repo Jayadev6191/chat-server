@@ -1,0 +1,17 @@
+html
+head
+title= "Real time web chat"
+script(src='/register.js')
+body
+form(name='registration', action='/users', method='post')
+|username
+input#username(type='text', name='username')
+br
+|password
+input#password(type='password', name='password')
+br
+label re-enter password 
+input#re-password(type='password', name='re-password')
+br
+input#submit(type='submit', value='submit')
+br

@@ -1,0 +1,17 @@
+html
+    head
+    title= "Real time web chat"
+    script(src='/login.js')
+    body
+    form(name='login', action='/chat', method='post')
+    h2 Login
+    label username
+    input#username(type='text', name='username')
+    br
+    label password
+    input#password(type='password', name='password')
+    br
+    input#submit(type='button', value='submit')
+    br
+    Not registered yet? Register 
+    a(href='/register') here	

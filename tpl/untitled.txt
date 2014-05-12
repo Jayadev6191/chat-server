@@ -1,0 +1,18 @@
+window.onload = function() {
+
+var sendButton = document.getElementById("submit");
+var username=document.getElementById("username");
+var password=document.getElementById("password");
+var re-password=document.getElementById("re-password");
+
+sendButton.onclick = function() {
+        if(username.value == "" || password.value=="" || re-password.value=="") {
+            alert("Please type your name!");
+        } else {
+            location.href="http://localhost:3700/chat";
+        }
+    };
+
+
+
+}
